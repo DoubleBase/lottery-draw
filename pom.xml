@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.muskmelon.ddd.lotterydraw</groupId>
+    <artifactId>lotterydraw-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>lottery-draw-activity</module>
+        <module>lottery-draw-core</module>
+        <module>lottery-draw-prize-stock</module>
+        <module>lottery-draw-risk-control</module>
+        <module>lottery-draw-activity-api</module>
+        <module>lottery-draw-prize-stock-api</module>
+        <module>lottery-draw-risk-control-api</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.12</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>

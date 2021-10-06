@@ -1,0 +1,6 @@
+# Project exclude paths
+/lottery-draw-activity/target/
+/lottery-draw-activity-api/target/
+/lottery-draw-core/target/
+/lottery-draw-risk-control/target/
+/lottery-draw-risk-control-api/target/
